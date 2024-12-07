@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   # root "posts#index"
 
   get "/artists" => "artists#index"
-  get "/artists" => "artists#create"
+  post "/artists" => "artists#create"
   get "/artists/:id" => "artists#show"
+  patch "/artists/:id" => "artists#update"
 end
