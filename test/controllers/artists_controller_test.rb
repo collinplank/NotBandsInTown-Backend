@@ -15,4 +15,12 @@ class ArtistsControllerTest < ActionDispatch::IntegrationTest
       assert_response 404
     end
   end
+
+  test "show" do
+    get "/artists/#{Artist.first.id}.json"
+    assert_response 404
+
+    data = JSON.parse(response.body)
+    assert_equal ["id", "name", "genre", "bio", "created_at", "updated_at"], data.keys
+  end
 end

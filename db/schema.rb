@@ -15,6 +15,7 @@ ActiveRecord::Schema[8.0].define(version: 2024_12_07_193550) do
   enable_extension "pg_catalog.plpgsql"
 
   create_table "artists", force: :cascade do |t|
+    t.integer "id"
     t.string "name"
     t.string "genre"
     t.string "bio"
