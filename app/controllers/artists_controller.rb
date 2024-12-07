@@ -27,4 +27,10 @@ class ArtistsController < ApplicationController
     )
     render :show
   end
+
+  def destroy
+    @artist = Artist.find_by(id: params[:id])
+    @artist.destroy
+    render json: { message: "Artist successfully deleted" }
+  end
 end

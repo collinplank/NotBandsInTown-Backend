@@ -16,4 +16,5 @@ Rails.application.routes.draw do
   post "/artists" => "artists#create"
   get "/artists/:id" => "artists#show"
   patch "/artists/:id" => "artists#update"
+  delete "/artists/:id" => "artists#destroy"
 end
