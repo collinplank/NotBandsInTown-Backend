@@ -17,4 +17,14 @@ class ArtistsController < ApplicationController
     @artist = Artist.find_by(id :params[:id])
     render :show
   end
+
+  def update
+    @artist = Artist.find_by(id: params[:id])
+    @artist.update(
+      name: params[:name] || @artist.name,
+      genre: params[:genre] || @artist.genre,
+      bio: params[:bio] || @artist.bio,
+    )
+    render :show
+  end
 end
