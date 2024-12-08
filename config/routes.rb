@@ -22,4 +22,5 @@ Rails.application.routes.draw do
   post "/concerts" => "concerts#create"
   get "concerts/:id" => "concerts#show"
   patch "concerts/:id" => "concerts#update"
+  delete "/concerts/:id" => "concerts#destroy"
 end
