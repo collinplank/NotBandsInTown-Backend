@@ -18,4 +18,15 @@ class ConcertsController < ApplicationController
     @concert = Concert.find_by(id: params[:id])
     render :show
   end
+
+  def update
+    @concert = Concert.find_by(id: params[:id])
+    @concert.update(
+      date: params[:date] || @concert.date,
+      venue: params[:venue] || @concert.venue,
+      city: params[:city] || @concert.city,
+      artist_id: params[:artist_id] || @concert.artist_id,
+    )
+    render :show
+  end
 end
