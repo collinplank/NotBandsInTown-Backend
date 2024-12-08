@@ -13,4 +13,9 @@ class ConcertsController < ApplicationController
     )
     render :show
   end
+
+  def show
+    @concert = Concert.find_by(id: params[:id])
+    render :show
+  end
 end

@@ -20,4 +20,5 @@ Rails.application.routes.draw do
 
   get "/concerts" => "concerts#index"
   post "/concerts" => "concerts#create"
+  get "concerts/:id" => "concerts#show"
 end
