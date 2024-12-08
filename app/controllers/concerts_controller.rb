@@ -3,4 +3,14 @@ class ConcertsController < ApplicationController
     @concerts = Concert.all
     render :index
   end
+
+  def create
+    @concert = Concert.create(
+      date: params[:date],
+      venue: params[:venue],
+      city: params[:city],
+      artist_id: params[:artist_id],
+    )
+    render :show
+  end
 end
