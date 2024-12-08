@@ -23,4 +23,13 @@ class ConcertsControllerTest < ActionDispatch::IntegrationTest
   #   data = JSON.parse(response.body)
   #   assert_equal ["date", "venue", "city", "artist_id", "created_at", "updated_at"], data.keys
   # end
+
+  # test "update" do
+  #   concert = Concert.first
+  #   patch "/concerts/#{concert.id}.json", params: { name: "Updated venue" }
+  #   assert_response 200
+
+  #   data = JSON.parse(response.body)
+  #   assert_equal "Updated venue", data["venue"]
+  # end
 end
