@@ -15,7 +15,7 @@ class ArtistsController < ApplicationController
 
   def show
     @artist = Artist.find(params[:id])
-    render :show
+    @concerts = @artist.concerts
   end
 
   def update

@@ -78,43 +78,137 @@ Artist.create([
   },
 ])
 
-concert = Concert.create(
-  artist: artist,
-  date: "September 18, 2024",
-  venue: "Forrest Hills Stadium",
-  city: "Queens, New York",
-)
-
-# )
-# Setlist.create(
-#   artist: artist,
-#   concert: concert,
-#   songs: [
-#     "Ballerina Radio",
-#     "The Bucket",
-#     "The Bandit",
-#     "On Call",
-#     "Nowhere to Run",
-#     "Manhattan",
-#     "Razz",
-#     "My Party",
-#     "Sex on Fire",
-#     "Revelry",
-#     "Beautiful War",
-#     "The Face",
-#     "Supersoaker",
-#     "M Televison",
-#     "Back Down South",
-#     "Walls",
-#     "Pyro",
-#     "Mustang",
-#     "Molly's Chambers",
-#     "Waste a Moment",
-#     "Find Me",
-#     "Seen",
-#     "Closer",
-#     "Rainbow Ball",
-#     "Knocked Up",
-#     "Use Sombody",
-#   ],
-# )
+Concert.create([
+  {
+    artist_id: 1, # Kings of Leon
+    date: "September 26, 2024",
+    venue: "Bridgestone Arena",
+    city: "Nashville, TN",
+  },
+  {
+    artist_id: 1, # Kings of Leon
+    date: "September 18, 2024",
+    venue: "Forest Hills Stadium",
+    city: "Queens, NY",
+  },
+  {
+    artist_id: 2, # Fontaines DC
+    date: "December 7, 2024",
+    venue: "3Arena",
+    city: "Dublin, Ireland",
+  },
+  {
+    artist_id: 2, # Fontaines DC
+    date: "November 22, 2024",
+    venue: "Alexandra Palace",
+    city: "London, England",
+  },
+  {
+    artist_id: 3, # Arctic Monkeys
+    date: "October 1, 2023",
+    venue: "Kia Forum",
+    city: "Inglewood, CA",
+  },
+  {
+    artist_id: 3, # Arctic Monkeys
+    date: "October 6, 2023",
+    venue: "Foro Sol",
+    city: "Mexico City, Mexico",
+  },
+  {
+    artist_id: 4, # The Strokes
+    date: "March 19, 2022",
+    venue: "Lollapalooza Argentina",
+    city: "Hipódromo de San Isidro, San Isidro, Argentina",
+  },
+  {
+    artist_id: 4, # The Strokes
+    date: "August 27, 2011",
+    venue: "Reading Festival",
+    city: "Little John's Farm, Reading, England",
+  },
+  {
+    artist_id: 5, # The Killers
+    date: "December 22, 2013",
+    venue: "Wembley Stadium",
+    city: "London, England",
+  },
+  {
+    artist_id: 5, # The Killers
+    date: "July 5, 2009",
+    venue: "Royal Albert Hall",
+    city: "London, England",
+  },
+  {
+    artist_id: 6, # Tame Impala
+    date: "April 13, 2019",
+    venue: "Coachella",
+    city: "Empire Polo Club, Indio, CA",
+  },
+  {
+    artist_id: 6, # Tame Impala
+    date: "March 19, 2022",
+    venue: "Wells Fargo Center",
+    city: "Philadelphia, PA",
+  },
+  {
+    artist_id: 7, # The Black Keys
+    date: "May 15, 2024",
+    venue: "Co-op Live",
+    city: "Manchester, England",
+  },
+  {
+    artist_id: 7, # The Black Keys
+    date: "November 2, 2023",
+    venue: "Hollywood Bowl",
+    city: "Los Angeles, CA",
+  },
+  {
+    artist_id: 8, # Foals
+    date: "July 2, 2009",
+    venue: "Hyde Park",
+    city: "London, England",
+  },
+  {
+    artist_id: 8, # Foals
+    date: "July 14, 2013",
+    venue: "T in the Park",
+    city: "Balado, Kinross, Scotland",
+  },
+  {
+    artist_id: 9, # Vampire Weekend
+    date: "December 15, 2024",
+    venue: "AFAS Live",
+    city: "Amsterdam, Netherlands",
+  },
+  {
+    artist_id: 9, # Vampire Weekend
+    date: "December 13, 2024",
+    venue: "Adidas Arena",
+    city: "Paris, France",
+  },
+  {
+    artist_id: 10, # Interpol
+    date: "April 20, 2024",
+    venue: "Zócalo de la Ciudad de México",
+    city: "Mexico City, Mexico",
+  },
+  {
+    artist_id: 10, # Interpol
+    date: "December 5, 2024",
+    venue: "Brooklyn Steel",
+    city: "Brooklyn, NY",
+  },
+  {
+    artist_id: 11, # Cage the Elephant
+    date: "September 27, 2024",
+    venue: "Oceans Calling",
+    city: "Ocean City, MD",
+  },
+  {
+    artist_id: 11, # Cage the Elephant
+    date: "September 5, 2024",
+    venue: "Madison Square Garden",
+    city: "New York, NY",
+  },
+])
