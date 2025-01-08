@@ -1,7 +1,8 @@
 class ConcertsController < ApplicationController
   def index
-    @concerts = Concert.all
-    render :index
+    artist = Artist.find(params[:artist_id])
+    concerts = artist.concerts
+    render json: concerts
   end
 
   def create
