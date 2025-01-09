@@ -33,8 +33,4 @@ Rails.application.routes.draw do
   get "/setlists/:id" => "setlists#show"
   patch "/setlists/:id" => "setlists#update"
   delete "/setlists/:id" => "setlists#destroy"
-
-  resources :artists do
-    resources :concerts, only: [:index]
-  end
 end

@@ -79,136 +79,124 @@ Artist.create([
 ])
 
 Concert.create([
-  {
-    artist_id: 1, # Kings of Leon
-    date: "September 26, 2024",
-    venue: "Bridgestone Arena",
-    city: "Nashville, TN",
-  },
-  {
-    artist_id: 1, # Kings of Leon
-    date: "September 18, 2024",
-    venue: "Forest Hills Stadium",
-    city: "Queens, NY",
-  },
-  {
-    artist_id: 2, # Fontaines DC
-    date: "December 7, 2024",
-    venue: "3Arena",
-    city: "Dublin, Ireland",
-  },
-  {
-    artist_id: 2, # Fontaines DC
-    date: "November 22, 2024",
-    venue: "Alexandra Palace",
-    city: "London, England",
-  },
-  {
-    artist_id: 3, # Arctic Monkeys
-    date: "October 1, 2023",
-    venue: "Kia Forum",
-    city: "Inglewood, CA",
-  },
-  {
-    artist_id: 3, # Arctic Monkeys
-    date: "October 6, 2023",
-    venue: "Foro Sol",
-    city: "Mexico City, Mexico",
-  },
-  {
-    artist_id: 4, # The Strokes
-    date: "March 19, 2022",
-    venue: "Lollapalooza Argentina",
-    city: "Hipódromo de San Isidro, San Isidro, Argentina",
-  },
-  {
-    artist_id: 4, # The Strokes
-    date: "August 27, 2011",
-    venue: "Reading Festival",
-    city: "Little John's Farm, Reading, England",
-  },
-  {
-    artist_id: 5, # The Killers
-    date: "December 22, 2013",
-    venue: "Wembley Stadium",
-    city: "London, England",
-  },
-  {
-    artist_id: 5, # The Killers
-    date: "July 5, 2009",
-    venue: "Royal Albert Hall",
-    city: "London, England",
-  },
-  {
-    artist_id: 6, # Tame Impala
-    date: "April 13, 2019",
-    venue: "Coachella",
-    city: "Empire Polo Club, Indio, CA",
-  },
-  {
-    artist_id: 6, # Tame Impala
-    date: "March 19, 2022",
-    venue: "Wells Fargo Center",
-    city: "Philadelphia, PA",
-  },
-  {
-    artist_id: 7, # The Black Keys
-    date: "May 15, 2024",
-    venue: "Co-op Live",
-    city: "Manchester, England",
-  },
-  {
-    artist_id: 7, # The Black Keys
-    date: "November 2, 2023",
-    venue: "Hollywood Bowl",
-    city: "Los Angeles, CA",
-  },
-  {
-    artist_id: 8, # Foals
-    date: "July 2, 2009",
-    venue: "Hyde Park",
-    city: "London, England",
-  },
-  {
-    artist_id: 8, # Foals
-    date: "July 14, 2013",
-    venue: "T in the Park",
-    city: "Balado, Kinross, Scotland",
-  },
-  {
-    artist_id: 9, # Vampire Weekend
-    date: "December 15, 2024",
-    venue: "AFAS Live",
-    city: "Amsterdam, Netherlands",
-  },
-  {
-    artist_id: 9, # Vampire Weekend
-    date: "December 13, 2024",
-    venue: "Adidas Arena",
-    city: "Paris, France",
-  },
-  {
-    artist_id: 10, # Interpol
-    date: "April 20, 2024",
-    venue: "Zócalo de la Ciudad de México",
-    city: "Mexico City, Mexico",
-  },
-  {
-    artist_id: 10, # Interpol
-    date: "December 5, 2024",
-    venue: "Brooklyn Steel",
-    city: "Brooklyn, NY",
-  },
-  {
-    artist_id: 11, # Cage the Elephant
-    date: "September 27, 2024",
-    venue: "Oceans Calling",
-    city: "Ocean City, MD",
-  },
-  {
-    artist_id: 11, # Cage the Elephant
-    date: "September 5, 2024",
-    venue: "Madison Square Garden",
-    city: "New York, NY",
-  },
+  { artist_id: 1, date: "September 26, 2024", venue: "Bridgestone Arena", city: "Nashville, TN" },
+  { artist_id: 1, date: "October 3, 2024", venue: "Madison Square Garden", city: "New York, NY" },
+  { artist_id: 1, date: "November 10, 2024", venue: "Red Rocks Amphitheatre", city: "Morrison, CO" },
+  { artist_id: 1, date: "November 20, 2024", venue: "The Forum", city: "Los Angeles, CA" },
+  { artist_id: 1, date: "December 5, 2024", venue: "Wembley Arena", city: "London, England" },
+  { artist_id: 1, date: "December 15, 2024", venue: "O2 Arena", city: "London, England" },
+  { artist_id: 1, date: "January 10, 2025", venue: "Scotiabank Arena", city: "Toronto, Canada" },
+  { artist_id: 1, date: "February 20, 2025", venue: "United Center", city: "Chicago, IL" },
+  { artist_id: 1, date: "March 15, 2025", venue: "Barclays Center", city: "Brooklyn, NY" },
+  { artist_id: 1, date: "April 25, 2025", venue: "TD Garden", city: "Boston, MA" },
+
+  { artist_id: 2, date: "December 7, 2024", venue: "3Arena", city: "Dublin, Ireland" },
+  { artist_id: 2, date: "November 22, 2024", venue: "Alexandra Palace", city: "London, England" },
+  { artist_id: 2, date: "October 10, 2024", venue: "Barrowland Ballroom", city: "Glasgow, Scotland" },
+  { artist_id: 2, date: "September 18, 2024", venue: "O2 Academy", city: "Birmingham, England" },
+  { artist_id: 2, date: "August 20, 2024", venue: "Royal Albert Hall", city: "London, England" },
+  { artist_id: 2, date: "July 15, 2024", venue: "Olympia Theatre", city: "Dublin, Ireland" },
+  { artist_id: 2, date: "June 25, 2024", venue: "The SSE Arena", city: "Belfast, Northern Ireland" },
+  { artist_id: 2, date: "May 30, 2024", venue: "O2 Academy Brixton", city: "London, England" },
+  { artist_id: 2, date: "April 22, 2024", venue: "First Direct Arena", city: "Leeds, England" },
+  { artist_id: 2, date: "March 10, 2024", venue: "Manchester Arena", city: "Manchester, England" },
+
+  { artist_id: 3, date: "October 1, 2023", venue: "Kia Forum", city: "Inglewood, CA" },
+  { artist_id: 3, date: "October 6, 2023", venue: "Foro Sol", city: "Mexico City, Mexico" },
+  { artist_id: 3, date: "September 15, 2023", venue: "The O2", city: "London, England" },
+  { artist_id: 3, date: "August 20, 2023", venue: "Madison Square Garden", city: "New York, NY" },
+  { artist_id: 3, date: "July 18, 2023", venue: "Hollywood Bowl", city: "Los Angeles, CA" },
+  { artist_id: 3, date: "June 22, 2023", venue: "Red Rocks Amphitheatre", city: "Morrison, CO" },
+  { artist_id: 3, date: "May 10, 2023", venue: "Coachella", city: "Indio, CA" },
+  { artist_id: 3, date: "April 15, 2023", venue: "Glastonbury Festival", city: "Somerset, England" },
+  { artist_id: 3, date: "March 20, 2023", venue: "Rogers Arena", city: "Vancouver, Canada" },
+  { artist_id: 3, date: "February 28, 2023", venue: "United Center", city: "Chicago, IL" },
+
+  { artist_id: 4, date: "March 19, 2022", venue: "Lollapalooza Argentina", city: "San Isidro, Argentina" },
+  { artist_id: 4, date: "August 27, 2011", venue: "Reading Festival", city: "Reading, England" },
+  { artist_id: 4, date: "July 15, 2022", venue: "The Roxy", city: "Los Angeles, CA" },
+  { artist_id: 4, date: "June 20, 2022", venue: "Hollywood Bowl", city: "Los Angeles, CA" },
+  { artist_id: 4, date: "May 18, 2022", venue: "Red Rocks Amphitheatre", city: "Morrison, CO" },
+  { artist_id: 4, date: "April 25, 2022", venue: "Coachella", city: "Indio, CA" },
+  { artist_id: 4, date: "March 15, 2022", venue: "Madison Square Garden", city: "New York, NY" },
+  { artist_id: 4, date: "February 10, 2022", venue: "Barclays Center", city: "Brooklyn, NY" },
+  { artist_id: 4, date: "January 22, 2022", venue: "The Forum", city: "Los Angeles, CA" },
+  { artist_id: 4, date: "December 5, 2021", venue: "Scotiabank Arena", city: "Toronto, Canada" },
+
+  { artist_id: 5, date: "December 22, 2013", venue: "Wembley Stadium", city: "London, England" },
+  { artist_id: 5, date: "July 5, 2009", venue: "Royal Albert Hall", city: "London, England" },
+  { artist_id: 5, date: "June 15, 2010", venue: "Madison Square Garden", city: "New York, NY" },
+  { artist_id: 5, date: "May 20, 2010", venue: "The Cosmopolitan", city: "Las Vegas, NV" },
+  { artist_id: 5, date: "April 25, 2010", venue: "Red Rocks Amphitheatre", city: "Morrison, CO" },
+  { artist_id: 5, date: "March 18, 2010", venue: "Hollywood Bowl", city: "Los Angeles, CA" },
+  { artist_id: 5, date: "February 28, 2010", venue: "The O2", city: "London, England" },
+  { artist_id: 5, date: "January 15, 2010", venue: "Coachella", city: "Indio, CA" },
+  { artist_id: 5, date: "December 10, 2009", venue: "Glastonbury Festival", city: "Somerset, England" },
+  { artist_id: 5, date: "November 15, 2009", venue: "United Center", city: "Chicago, IL" },
+
+  { artist_id: 6, date: "April 13, 2019", venue: "Coachella", city: "Indio, CA" },
+  { artist_id: 6, date: "March 19, 2022", venue: "Wells Fargo Center", city: "Philadelphia, PA" },
+  { artist_id: 6, date: "February 25, 2022", venue: "Scotiabank Arena", city: "Toronto, Canada" },
+  { artist_id: 6, date: "January 15, 2022", venue: "TD Garden", city: "Boston, MA" },
+  { artist_id: 6, date: "December 10, 2021", venue: "United Center", city: "Chicago, IL" },
+  { artist_id: 6, date: "November 5, 2021", venue: "Madison Square Garden", city: "New York, NY" },
+  { artist_id: 6, date: "October 1, 2021", venue: "Red Rocks Amphitheatre", city: "Morrison, CO" },
+  { artist_id: 6, date: "September 15, 2021", venue: "Hollywood Bowl", city: "Los Angeles, CA" },
+  { artist_id: 6, date: "August 10, 2021", venue: "The O2", city: "London, England" },
+  { artist_id: 6, date: "July 5, 2021", venue: "Olympia Theatre", city: "Dublin, Ireland" },
+
+  { artist_id: 7, date: "May 15, 2024", venue: "Co-op Live", city: "Manchester, England" },
+  { artist_id: 7, date: "November 2, 2023", venue: "Hollywood Bowl", city: "Los Angeles, CA" },
+  { artist_id: 7, date: "October 5, 2023", venue: "Red Rocks Amphitheatre", city: "Morrison, CO" },
+  { artist_id: 7, date: "September 12, 2023", venue: "United Center", city: "Chicago, IL" },
+  { artist_id: 7, date: "August 10, 2023", venue: "Madison Square Garden", city: "New York, NY" },
+  { artist_id: 7, date: "July 15, 2023", venue: "TD Garden", city: "Boston, MA" },
+  { artist_id: 7, date: "June 20, 2023", venue: "Scotiabank Arena", city: "Toronto, Canada" },
+  { artist_id: 7, date: "May 25, 2023", venue: "The Forum", city: "Los Angeles, CA" },
+  { artist_id: 7, date: "April 10, 2023", venue: "Barclays Center", city: "Brooklyn, NY" },
+  { artist_id: 7, date: "March 5, 2023", venue: "O2 Arena", city: "London, England" },
+
+  { artist_id: 8, date: "May 15, 2024", venue: "Co-op Live", city: "Manchester, England" },
+  { artist_id: 8, date: "November 2, 2023", venue: "Hollywood Bowl", city: "Los Angeles, CA" },
+  { artist_id: 8, date: "October 5, 2023", venue: "Red Rocks Amphitheatre", city: "Morrison, CO" },
+  { artist_id: 8, date: "September 12, 2023", venue: "United Center", city: "Chicago, IL" },
+  { artist_id: 8, date: "August 10, 2023", venue: "Madison Square Garden", city: "New York, NY" },
+  { artist_id: 8, date: "July 15, 2023", venue: "TD Garden", city: "Boston, MA" },
+  { artist_id: 8, date: "June 20, 2023", venue: "Scotiabank Arena", city: "Toronto, Canada" },
+  { artist_id: 8, date: "May 25, 2023", venue: "The Forum", city: "Los Angeles, CA" },
+  { artist_id: 8, date: "April 10, 2023", venue: "Barclays Center", city: "Brooklyn, NY" },
+  { artist_id: 8, date: "March 5, 2023", venue: "O2 Arena", city: "London, England" },
+
+  { artist_id: 9, date: "April 13, 2019", venue: "Coachella", city: "Indio, CA" },
+  { artist_id: 9, date: "March 19, 2022", venue: "Wells Fargo Center", city: "Philadelphia, PA" },
+  { artist_id: 9, date: "February 25, 2022", venue: "Scotiabank Arena", city: "Toronto, Canada" },
+  { artist_id: 9, date: "January 15, 2022", venue: "TD Garden", city: "Boston, MA" },
+  { artist_id: 9, date: "December 10, 2021", venue: "United Center", city: "Chicago, IL" },
+  { artist_id: 9, date: "November 5, 2021", venue: "Madison Square Garden", city: "New York, NY" },
+  { artist_id: 9, date: "October 1, 2021", venue: "Red Rocks Amphitheatre", city: "Morrison, CO" },
+  { artist_id: 9, date: "September 15, 2021", venue: "Hollywood Bowl", city: "Los Angeles, CA" },
+  { artist_id: 9, date: "August 10, 2021", venue: "The O2", city: "London, England" },
+  { artist_id: 9, date: "July 5, 2021", venue: "Olympia Theatre", city: "Dublin, Ireland" },
+
+  { artist_id: 10, date: "March 19, 2022", venue: "Lollapalooza Argentina", city: "San Isidro, Argentina" },
+  { artist_id: 10, date: "August 27, 2011", venue: "Reading Festival", city: "Reading, England" },
+  { artist_id: 10, date: "July 15, 2022", venue: "The Roxy", city: "Los Angeles, CA" },
+  { artist_id: 10, date: "June 20, 2022", venue: "Hollywood Bowl", city: "Los Angeles, CA" },
+  { artist_id: 10, date: "May 18, 2022", venue: "Red Rocks Amphitheatre", city: "Morrison, CO" },
+  { artist_id: 10, date: "April 25, 2022", venue: "Coachella", city: "Indio, CA" },
+  { artist_id: 10, date: "March 15, 2022", venue: "Madison Square Garden", city: "New York, NY" },
+  { artist_id: 10, date: "February 10, 2022", venue: "Barclays Center", city: "Brooklyn, NY" },
+  { artist_id: 10, date: "January 22, 2022", venue: "The Forum", city: "Los Angeles, CA" },
+  { artist_id: 10, date: "December 5, 2021", venue: "Scotiabank Arena", city: "Toronto, Canada" },
+
+  { artist_id: 11, date: "December 7, 2024", venue: "3Arena", city: "Dublin, Ireland" },
+  { artist_id: 11, date: "November 22, 2024", venue: "Alexandra Palace", city: "London, England" },
+  { artist_id: 11, date: "October 10, 2024", venue: "Barrowland Ballroom", city: "Glasgow, Scotland" },
+  { artist_id: 11, date: "September 18, 2024", venue: "O2 Academy", city: "Birmingham, England" },
+  { artist_id: 11, date: "August 20, 2024", venue: "Royal Albert Hall", city: "London, England" },
+  { artist_id: 11, date: "July 15, 2024", venue: "Olympia Theatre", city: "Dublin, Ireland" },
+  { artist_id: 11, date: "June 25, 2024", venue: "The SSE Arena", city: "Belfast, Northern Ireland" },
+  { artist_id: 11, date: "May 30, 2024", venue: "O2 Academy Brixton", city: "London, England" },
+  { artist_id: 11, date: "April 22, 2024", venue: "First Direct Arena", city: "Leeds, England" },
+  { artist_id: 11, date: "March 10, 2024", venue: "Manchester Arena", city: "Manchester, England" },
 ])
