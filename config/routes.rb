@@ -22,6 +22,8 @@ Rails.application.routes.draw do
   patch "/artists/:id" => "artists#update"
   delete "/artists/:id" => "artists#destroy"
 
+  get "/artists/search/:search_terms" => "artists_api#show"
+
   get "/concerts" => "concerts#index"
   post "/concerts" => "concerts#create"
   get "concerts/:id" => "concerts#show"
