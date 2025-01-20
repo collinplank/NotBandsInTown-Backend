@@ -1,33 +1,55 @@
 # Bandsintown Clone Backend
 
-This is the backend for the Bandsintown Clone project. It provides the necessary API endpoints to search for artists, view their touring history, access setlists, and retrieve other band-related information. The backend is built with Ruby on Rails and follows a RESTful API architecture.
+Welcome to the **Bandsintown Clone Backend**! This project powers a Bandsintown-inspired application that enables users to explore artists, discover upcoming shows, and manage their favorites. Built with Ruby on Rails, the backend API delivers fast, reliable, and secure functionality to enhance the concert-going experience.
+
+![Ruby on Rails](https://img.shields.io/badge/Ruby_on_Rails-7.0-red) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-12-blue) ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
 ---
 
 ## Features
 
-- **Search for Bands/Artists**: Allows users to search for specific bands or artists by name.
-- **View Artist Information**: Returns information about the artist, such as name, genre, and bio.
-- **Touring History**: Provides information about past tours, including dates and locations.
-- **Setlists**: Displays the setlists for a band's previous concerts.
-- **Event Listings**: Displays upcoming events and concerts for artists.
+### Core Functionality
+
+- **Ruby on Rails Backend**: A RESTful JSON API built with Rails to efficiently handle requests.
+- **PostgreSQL Database**: Robust and scalable storage for user data, artists, and events.
+- **Bandsintown API Integration**: Leverages [Bandsintown’s API](https://help.artists.bandsintown.com/en/articles/9186477-api-documentation) to fetch real-time data about artists and their events.
+
+### User Capabilities
+
+- **Secure User Authentication**: Sign up and log in with industry-standard authentication practices.
+- **Search Artists**: Query the API to find detailed information about your favorite artists.
+- **Favorite Artists**: Save your favorite artists to a personalized list.
+- **Discover Events**: Explore upcoming shows and event details for artists you love.
 
 ---
 
-## Technologies Used
+## Tech Stack
 
-- **Ruby on Rails**: A web application framework used for building the API.
-- **SQLite**: A lightweight, file-based database used for storing the app’s data (you can switch to a production-grade database like PostgreSQL later).
-- **RESTful API**: The backend follows RESTful principles for API endpoints.
-
----
-
-### Contributing
-
-Contributions are welcome! Feel free to fork this repository, make changes, and submit a pull request.
+| **Technology**  | **Usage**                      |
+| --------------- | ------------------------------ |
+| Ruby on Rails   | Backend framework              |
+| PostgreSQL      | Database                       |
+| BCrypt          | Password encryption            |
+| Bandsintown API | Artist and event data fetching |
 
 ---
 
-### License
+## API Endpoints
 
-This project is licensed under the MIT License. See the LICENSE file for more information.
+### Authentication
+
+- **POST /signup**: Create a new user.
+- **POST /login**: Authenticate a user and retrieve a session token.
+
+### Artists
+
+- **GET /artists**: Retrieve a list of artists.
+- **GET /artists/:id**: Fetch detailed information about a specific artist.
+
+---
+
+## Future Enhancements
+
+- **User Profiles**: Add customizable user profiles with social media links.
+- **Advanced Search Filters**: Filter events by location, genre, and date.
+- **Notification**: Notify users of new events or updates for their favorite artists.
