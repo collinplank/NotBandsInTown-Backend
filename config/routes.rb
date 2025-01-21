@@ -23,6 +23,7 @@ Rails.application.routes.draw do
   delete "/artists/:id" => "artists#destroy"
 
   get "/artists/search/:search_terms" => "artists_api#show"
+  get "/spotify/:artist_name" => "spotify#show"
 
   get "/concerts" => "concerts#index"
   post "/concerts" => "concerts#create"
